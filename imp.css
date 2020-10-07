@@ -164,7 +164,7 @@ box-shadow: 5px 5px 10px 10px rgba(227, 65, 241, 0.452) , -5px -5px 10px 10px rg
 }
 .nav{
   background: linear-gradient(to bottom, #3366cc 0%, #cc66ff 100%);
-  border-radius: 30px;
+  border-radius: 30px 10px 30px 10px;
   position: relative;
 }
 .switch {
