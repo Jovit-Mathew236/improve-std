@@ -1,7 +1,7 @@
-#body{
+.body{
   /*background-image: linear-gradient(to bottom, #000000 0%, #00005a 100%);
-  background-image: linear-gradient(150deg,  #000000 0%, #00005a 100%);*/
-  background-image: url("bg3.jpg");
+  /*background-image: linear-gradient(150deg,  #000000 0%, #00005a 100%);*/
+  background-image: url("bg1.jpg");
   background-repeat: repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -98,7 +98,7 @@ display: -ms-grid;
 color:rgba(255, 238, 0, 0.911);
 background-color:  rgba(91, 99, 91, 0.4);
 border: 3px solid rgba(255, 0, 212, 0.603);
-border-radius: 30px;
+border-radius: 30px 0px 30px 0px;
 object-position: center;
 box-shadow: 5px 5px 10px 10px rgba(227, 65, 241, 0.452) , -5px -5px 10px 10px rgba(227, 65, 241, 0.452) ;
 }
@@ -237,5 +237,32 @@ input:checked + .slider:before {
     height:400px ;
     width: 290px;
     margin-left: 9%;
+  }
+}
+.anm{
+  text-align: center;
+  animation-name: jump ;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-duration:5s ;
+}
+@keyframes jump{
+  0%{
+    color: rgba(71, 8, 219, 0.623);
+  }
+  25%{
+    color: rgba(194, 8, 219, 0.623);
+  }
+  50%{
+    color: rgba(12, 233, 23, 0.623);
+  }
+  75%{
+    color: rgba(224, 228, 10, 0.623);
+  }
+  100%{
+    color: rgba(10, 177, 228, 0.726);
   }
 }

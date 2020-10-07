@@ -4,12 +4,9 @@ function myClick(){
 
 
 
-function changeTheme() {
-   document.getElementById("body").style.backgroundImage;
+/*function changeTheme() {
+   document.body.style.backgroundImage = "url('tew1.jpg')";
 
-   if(currentimg == "url('bg2.jpg')") {
-        document.body.style.backgroundImage = "url('bg1.jpg')";
-    }else {
-        document.body.style.backgroundImage = "url('bg2.jpg')";
-        }
-    }
+}
+
+  
