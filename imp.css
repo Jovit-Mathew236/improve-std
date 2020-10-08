@@ -1,4 +1,4 @@
-.body{
+#body{
   /*background-image: linear-gradient(to bottom, #000000 0%, #00005a 100%);
   /*background-image: linear-gradient(150deg,  #000000 0%, #00005a 100%);*/
   background-image: url("bg1.jpg");
@@ -11,6 +11,33 @@
   /*background: rgb(2,0,36);
   background-image: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   */
+}
+#body2{
+  background-image: url("bg1.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  margin: 0;
+  padding: 0;
+}
+#body3{
+  background-image: url("bg1.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  margin: 0;
+  padding: 0;
+}
+#body4{
+  background-image: url("bg1.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  margin: 0;
+  padding: 0;
 }
 .container2 {
   background-color: rgba(255, 255, 255, .15);  
@@ -628,4 +655,7 @@ input:checked + .slider:before {
   100%{
     color: rgba(10, 177, 228, 0.726);
   }
+}
+.drp{
+  color: black;
 }
