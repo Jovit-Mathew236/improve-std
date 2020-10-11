@@ -805,3 +805,31 @@ input:checked + .slider:before {
   text-decoration: underline;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.842)
 }  
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height:2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb { 
+  position: fixed;
+  width: 5px;
+  height: 1px;
+  background: linear-gradient(to top, #008aff,#00ffe7);
+  border-radius:50px;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate{
+  from{
+    filter: hue-rotate(360deg);
+  }
+  to{
+    filter: hue-rotate(36deg);
+  }
+}
