@@ -1,5 +1,5 @@
 function myClick(){
-    window.alert("this is link")
+    window.alert("https://jovit-mathew236.github.io/improve-std/")
 }
 
 
@@ -36,3 +36,5 @@ function changeTheme4() {
           document.getElementById("body4").style.backgroundColor = "whitesmoke";
      }
   }
+
+
