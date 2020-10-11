@@ -2,6 +2,17 @@ function myClick(){
     window.alert("https://jovit-mathew236.github.io/improve-std/")
 }
 
+function changeTheme2() {
+     var currentColor2 = document.getElementById("body").style.backgroundColor;
+   
+     
+        if (currentColor2 =+ "whitesmoke") {
+          document.getElementById("body").style.backgroundColor = "black";
+     } else {
+          document.getElementById("body").style.backgroundColor = "whitesmoke";
+     }
+  }
+
 
 
 function changeTheme2() {
