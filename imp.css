@@ -672,7 +672,8 @@ input:checked + .slider:before {
   position: relative;
   object-position: top;
   display: -ms-grid;
-  color:rgba(255, 238, 0, 0.911);
+  color:rgb(0, 0, 0);
+  text-shadow: 1px 1px 0px rgb(255, 255, 255);
   background-color:  rgba(91, 99, 91, 0.4);
   border-radius: 10px;
   /*border: 3px solid;
@@ -832,4 +833,14 @@ input:checked + .slider:before {
   to{
     filter: hue-rotate(36deg);
   }
+}
+table{
+  border: 5px solid black;
+  display: inline-block;
+  word-break: break-word;
+  border-radius: 10px;
+}
+td,th{
+  word-break: break-word;
+  border: 1px solid black;
 }
