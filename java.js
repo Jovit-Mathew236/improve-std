@@ -3,26 +3,15 @@ function myClick(){
 }
 
 function changeTheme2() {
-     var currentColor2 = document.getElementById("body").style.backgroundColor;
-   
-     
-        if (currentColor2 =+ "whitesmoke") {
-          document.getElementById("body").style.backgroundColor = "black";
-     } else {
-          document.getElementById("body").style.backgroundColor = "whitesmoke";
-     }
-  }
-
-
-
-function changeTheme2() {
    var currentColor2 = document.getElementById("body2").style.backgroundColor;
  
    
       if (currentColor2 == "whitesmoke") {
         document.getElementById("body2").style.backgroundColor = "black";
+        document.getElementById("box2").style.color = "white";
    } else {
         document.getElementById("body2").style.backgroundColor = "whitesmoke";
+        document.getElementById("box2").style.color = "black";
    }
 }
 
@@ -47,5 +36,4 @@ function changeTheme4() {
           document.getElementById("body4").style.backgroundColor = "whitesmoke";
      }
   }
-
 
