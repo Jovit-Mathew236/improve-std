@@ -9,9 +9,11 @@ function changeTheme2() {
       if (currentColor2 == "whitesmoke") {
         document.getElementById("body2").style.backgroundColor = "black";
         document.getElementById("box2").style.color = "white";
+        document.getElementById("table").style.borderColor = "thistle";
    } else {
         document.getElementById("body2").style.backgroundColor = "whitesmoke";
         document.getElementById("box2").style.color = "black";
+        document.getElementById("table").style.borderColor = "black";
    }
 }
 
