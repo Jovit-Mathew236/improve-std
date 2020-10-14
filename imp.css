@@ -663,7 +663,7 @@ input:checked + .slider:before {
   margin: 10px;
   margin-left: 12px;
   width: 1050px;
-  height: 1100px;
+  height: auto;
   float: none;
   position:relative;
   text-align: left;
