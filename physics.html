@@ -1,130 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="imp.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="java.js"></script>
-    <link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
-    <title>Physics</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="imp.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="java.js"></script>
+  <link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
+  <title>Physics</title>
 </head>
-<body class="col-sm " id="body2" >
-    <div class="container container-fluid container-sm container-md container-lg container-xl">
-        <!-- Content here -->
-        <nav class="navbar navbar-expand-lg navbar-light  nav">
-          <button class="btn btn-lg btn-primary" onclick="sweetAlert()" href="http://sahssp.com/">SAHSSP</button>
-            <a class="navbar-brand"  href="#"><i>IMPROVEMENT</i></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="btn" onclick="myClick()" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Subjects
-                </a>
-                <div class="dropdown-menu" style="background-color: rgba(252, 250, 255, 0.692);" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item drp" href="physics.html">Physics</a>
-                  <a class="dropdown-item drp" href="chemistry.html">Chemistry</a>
-                  
-                  <a class="dropdown-item drp" href="maths.html">Maths</a>
-                </div>
-              </li>
-              </ul>
-              <label class="switch btnTheme"   >
-                <input type="checkbox">
-                <span class="slider round" onclick="changeTheme2()" style="font-size: 10px; padding-top:33px ;">Light Theme</span>
-              </label>         
+
+<body class="col-sm " id="body2">
+  <div class="container container-fluid container-sm container-md container-lg container-xl">
+    <!-- Content here -->
+    <nav class="navbar navbar-expand-lg navbar-light  nav">
+      <button class="btn btn-lg btn-primary" onclick="sweetAlert()" href="http://sahssp.com/">SAHSSP</button>
+      <a class="navbar-brand" href="#"><i>IMPROVEMENT</i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="btn" onclick="myClick()" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Subjects
+            </a>
+            <div class="dropdown-menu" style="background-color: rgba(252, 250, 255, 0.692);"
+              aria-labelledby="navbarDropdown">
+              <a class="dropdown-item drp" href="physics.html">Physics</a>
+              <a class="dropdown-item drp" href="chemistry.html">Chemistry</a>
+
+              <a class="dropdown-item drp" href="maths.html">Maths</a>
             </div>
-          </nav>
-        </div>
-    <header>
-        <h1 style="padding-left: 20px; color: rgba(0, 150, 250, 0.521); text-shadow: 4px 1px 3px  rgba(208, 204, 216, 0.911);  text-anchor: middle; text-align: center;"><i>Physics</i></h1>
-    </header>
-    <main id="box2" class="box2 container-sm container-md container-lg container-xl navbar-expand-lg navbar-light col-sm">
-      <div>
-        <h1><div class="cha-name"><span class="chapters">01. </span>Physical world</div></h1>
-
-        <div>
-          <table id="table">
-            <th>Technologies</th>
-            <th>Scientific Principle</th>
-            <tr>
-              <td>Rocket Propulsion</td>
-              <td>Newton's Laws of Principle</td>
-            </tr>
-            <tr>
-              <td>Electric Generator</td>
-              <td>Convertion of Gravitational PE into electrical energy</td>
-            </tr>
-            <tr>
-              <td>Aeroplane</td>
-              <td>Bernoulli's Principle</td>
-            </tr>
-            <tr>
-              <td>Nuclear Reactor</td>
-              <td>Nuclear fission</td>
-            </tr>
-            <tr>
-              <td>Radio & T.V</td>
-              <td>Propagation of electromagnetic waves</td>
-            </tr>
-            <tr>
-              <td>Computers</td>
-              <td>Digital logic</td>
-            </tr>
-          </table>
-        </div>
+          </li>
+        </ul>
+        <label class="switch btnTheme">
+          <input type="checkbox">
+          <span class="slider round" onclick="changeTheme2()" style="font-size: 10px; padding-top:33px ;">Light
+            Theme</span>
+        </label>
       </div>
-      <div>
-        <h1><div style="padding-top: 30px;" class="cha-name"><span class="chapters">02. </span>Units and Measurements</div></h1>
-      </div>
-       <div >
-          <h3>Differet system of units</h3>
-          <table id="table">
-            <tr>
-            <th>System</th>
-            <th>length</th>
-            <th>mass</th>
-            <th>time</th>
-            </tr>
-            <tr>
-              <td>CGS</td>
-              <td>Centimetre</td>
-              <td>Gram</td>
-              <td>Second</td>
-            </tr>
-            <tr>
-              <td>FPS</td>
-              <td>Foot</td>
-              <td>Pound</td>
-              <td>Second</td>
-            </tr>
-            <tr>
-              <td>MKS</td>
-              <td>Metre</td>
-              <td>Kilogram</td>
-              <td>Second</td>
-            </tr>
-          </table>
+    </nav>
+  </div>
+  <header>
+    <h1
+      style="padding-left: 20px; color: rgba(0, 150, 250, 0.521); text-shadow: 4px 1px 3px  rgba(208, 204, 216, 0.911);  text-anchor: middle; text-align: center;">
+      <i>Physics</i></h1>
+  </header>
+  <main id="box2"
+    class="box2 content container-sm container-md container-lg container-xl navbar-expand-lg navbar-light col-sm">
+    <div>
+      <h1>
+        <div class="cha-name"><span class="chapters">01. </span>Physical world</div>
+      </h1>
+    </div>
+    <div>
+      <table id="table">
+        <th>Technologies</th>
+        <th>Scientific Principle</th>
+        <tr>
+          <td>Rocket Propulsion</td>
+          <td>Newton's Laws of Principle</td>
+        </tr>
+        <tr>
+          <td>Electric Generator</td>
+          <td>Convertion of Gravitational PE into electrical energy</td>
+        </tr>
+        <tr>
+          <td>Aeroplane</td>
+          <td>Bernoulli's Principle</td>
+        </tr>
+        <tr>
+          <td>Nuclear Reactor</td>
+          <td>Nuclear fission</td>
+        </tr>
+        <tr>
+          <td>Radio & T.V</td>
+          <td>Propagation of electromagnetic waves</td>
+        </tr>
+        <tr>
+          <td>Computers</td>
+          <td>Digital logic</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h1>
+        <div style="padding-top: 30px;" class="cha-name"><span class="chapters">02. </span>Units and Measurements
+        </div>
+      </h1>
+    </div>
+    <div>
+      <h3>Differet system of units</h3>
+      <table id="table2">
+        <tr>
+          <th>System</th>
+          <th>length</th>
+          <th>mass</th>
+          <th>time</th>
+        </tr>
+        <tr>
+          <td>CGS</td>
+          <td>Centimetre</td>
+          <td>Gram</td>
+          <td>Second</td>
+        </tr>
+        <tr>
+          <td>FPS</td>
+          <td>Foot</td>
+          <td>Pound</td>
+          <td>Second</td>
+        </tr>
+        <tr>
+          <td>MKS</td>
+          <td>Metre</td>
+          <td>Kilogram</td>
+          <td>Second</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h2>Practical unit of lenght</h2>
+      <table id="table3">
+        <tr>
+          <th>No</th>
+          <th colspan="2">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Practical unit</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1 fermi (1f)</td>
+          <td>10<sup>-15</sup>m <i>(size of nucleus expressed in fermi)</i></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>1 angstrom unit (1 A°)</td>
+          <td>10<sup>-10</sup>m</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>1 astronomical unit (1 AU)</td>
+          <td>1.496×10<sup>11</sup> <i>(average distance of the sum from the earth)</i></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>1 light year (1ly)</td>
+          <td>9.46×10<sup>15</sup>m <i>(distance that light travel with velocity of 3×10<sup>8</sup>ms<sup>-1</sup>in 1
+              year)</i></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>1 parsec</td>
+          <td>3.08×10<sup>16</sup>m <i>(parsec is the distance at which average radius of earth's orbit subtends an angle of 1 arc sec)</i></td>
+        </tr>
+      </table>
+    </div>
+  </main>
 
 
-       </div>
-    </main>
 
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

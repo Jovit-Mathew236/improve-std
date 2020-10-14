@@ -10,10 +10,14 @@ function changeTheme2() {
         document.getElementById("body2").style.backgroundColor = "black";
         document.getElementById("box2").style.color = "white";
         document.getElementById("table").style.borderColor = "thistle";
+        document.getElementById("table2").style.borderColor = "thistle";
+        document.getElementById("table3").style.borderColor = "thistle";
    } else {
         document.getElementById("body2").style.backgroundColor = "whitesmoke";
         document.getElementById("box2").style.color = "black";
         document.getElementById("table").style.borderColor = "black";
+        document.getElementById("table2").style.borderColor = "black";
+        document.getElementById("table3").style.borderColor = "black";
    }
 }
 
