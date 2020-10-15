@@ -186,6 +186,7 @@ box-shadow: 5px 5px 15px 2px rgba(0, 255, 13, 0.452) , -5px -5px 15px 5px rgba(2
   background: linear-gradient(to bottom, #3366ccd0 0%, #cc44ffbd 100%);
   border-radius: 30px 10px 30px 10px;
   position: relative;
+  display: flex;
 }
 .switch {
   position: relative;
@@ -832,6 +833,10 @@ input:checked + .slider:before {
     filter: hue-rotate(36deg);
   }
 }
+table{
+  display: flex;
+  flex-wrap: nowrap;
+}
 #table{
   border: 4px solid;
   border-color: thistle;
@@ -847,6 +852,13 @@ input:checked + .slider:before {
   border-radius: 5px;
 }
 #table3{
+  border: 4px solid;
+  border-color: thistle;
+  display: inline-block;
+  word-break: break-word;
+  border-radius: 5px;
+}
+#table4{
   border: 4px solid;
   border-color: thistle;
   display: inline-block;
