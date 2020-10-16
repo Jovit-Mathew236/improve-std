@@ -1,196 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="imp.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="java.js"></script>
-    <link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
-    <title>Improvement</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="imp.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="java.js"></script>
+  <link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
+  <title>Improvement</title>
 </head>
+
 <body class="col-sm body" id="body">
-    <div class="container container-fluid container-sm container-md container-lg container-xl">
-        <!-- Content here -->
-        <nav class="navbar navbar-expand-lg navbar-light  nav">
-          <a href="http://sahssp.com/"><button class="btn btn-lg btn-primary" onclick="sweetAlert()" >SAHSSP</button></a>
-            <a class="navbar-brand "  href="#"><i>IMPROVEMENT</i></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+  <div class="container container-fluid container-sm container-md container-lg container-xl">
+    <!-- Content here -->
+    <nav class="navbar navbar-expand-lg navbar-light  nav">
+      <a href="http://sahssp.com/"><button class="btn btn-lg btn-primary" onclick="sweetAlert()">SAHSSP</button></a>
+      <a class="navbar-brand " href="#"><i>IMPROVEMENT</i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " id="btn" onclick="myClick()" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Subjects
+            </a>
+            <div class="dropdown-menu" style="background-color: rgba(252, 250, 255, 0.692);"
+              aria-labelledby="navbarDropdown">
+              <a class="dropdown-item drp" href="physics.html">Physics</a>
+              <a class="dropdown-item drp" href="chemistry.html">Chemistry</a>
+
+              <a class="dropdown-item drp" href="maths.html">Maths</a>
+            </div>
+          </li>
+        </ul>
+        <label class="switch btnTheme">
+          <input type="checkbox">
+          <span class="slider round" onclick="changeTheme()" style="font-size: 10px; padding-top:33px ;">Light
+            Theme</span>
+        </label>
+      </div>
+    </nav>
+  </div>
+  <main class="box container-sm container-md container-lg container-xl navbar-expand-lg navbar-light col-sm"
+    style="padding: 20px;">
+    <strong style="margin-left: 10px; margin-top: 15px;">Hi Guys,</br></strong>
+    <div class="col-sm" style="padding-top: 10px; padding-left: 0px; word-spacing:nowarp;">
+      <span class="anm2">C</span><span class="anm2">o</span>
+      <span class="anm3">m</span><span class="anm4">i</span><span class="anm5">n</span>
+      <span class="anm6">g</span><span class="anm7"> </span><span class="anm8">s</span>
+      <span class="anm9">o</span><span class="anm10">o</span>
+      <span class="anm11">n</span><span class="anm12">.</span><span class="anm13">.</span>
+      <span class="anm14">.</span>
+      <div class="txt" style="word-break: break-word;"></br>
+        This is a small web site for studying our upcoming +1 Improvement exam. Physics, chemistry and math are here to
+        help you.
+        I hope this is so helpful to you.
+      </div>
+    </div>
+  </main>
+  <div class="container" id="section1">
+    <div class="row">
+      <div class="col-sm pad">
+        <div style="padding-left:20px;">
+          <a href="physics.html"><button type="button" class="btn btn2 btn-primary btn-sm "
+              style="width: 140px;">Physics</button></a>
+        </div>
+      </div>
+      <div class="col-sm pad">
+        <div style="padding-left:20px;">
+          <a href="chemistry.html"><button type="button" class="btn btn2 btn-primary btn-sm"
+              style="width:140px; padding-right:80px;"><span
+                style="padding-right: 20px; text-align: center;">Chemistry</span></button></a>
+        </div>
+      </div>
+      <div class="col-sm pad">
+        <div style="padding-left:20px;">
+          <a href="maths.html"><button type="button" class="btn btn2 btn-primary btn-sm">Maths</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-sm container-md container-lg container-xl col-sm pad2">
+    <div class=" navbar-expand-lg navbar-light container2 col-sm">
+
+      <!-- Footer -->
+      <footer class="page-footer font-small blue pt-4 container2 col-sm"
+        style="margin-top: 100px; background-image: url(bg2.jpg);background-repeat: no-repeat;background-size: 100%; background-blend-mode: darken; ">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+              <!-- Content -->
+              <h5 class="text-uppercase">About</h5>
+              <p>Thank you to visting this website</br><strong>Contact
+                  Me</strong></br>mob:9447231112</br>Address:Valiamangalam(H)</br>Melampara p.o</br>
+                bharanaganam</br>Pala,Kottayam,Kerala,India</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+              <!-- Links -->
+              <h5 class="text-uppercase">Page</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#body">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link " id="btn" onclick="myClick()" href="#">Link</a>
+                <li>
+                  <a href="#!">Profile</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Subjects
-                  </a>
-                  <div class="dropdown-menu" style="background-color: rgba(252, 250, 255, 0.692);" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item drp" href="physics.html">Physics</a>
-                    <a class="dropdown-item drp" href="chemistry.html">Chemistry</a>
-                    
-                    <a class="dropdown-item drp" href="maths.html">Maths</a>
-                  </div>
+                <li>
+                  <a href="#section1">subjects</a>
+                </li>
+                <li>
+                  <a href="#!">Services</a>
                 </li>
               </ul>
-              <label class="switch btnTheme"   >
-                <input type="checkbox">
-                <span class="slider round" onclick="changeTheme()" style="font-size: 10px; padding-top:33px ;">Light Theme</span>
-              </label>         
-            </div>
-          </nav>
-        </div>
-      <main class="box container-sm container-md container-lg container-xl navbar-expand-lg navbar-light col-sm" style="padding: 20px;">  
-          <strong style="margin-left: 10px; margin-top: 15px;">Hi Guys,</br></strong>
-                 <div  class="col-sm" style="padding-top: 10px; padding-left: 0px; word-spacing:nowarp;"> 
-                    <span class="anm2">C</span><span class="anm2">o</span>
-                    <span class="anm3">m</span><span class="anm4">i</span><span class="anm5">n</span>
-                    <span class="anm6">g</span><span class="anm7"> </span><span class="anm8">s</span>
-                    <span class="anm9">o</span><span class="anm10">o</span>
-                    <span class="anm11">n</span><span class="anm12">.</span><span class="anm13">.</span>
-                    <span class="anm14">.</span>
-                    <div class="txt" style="word-break: break-word;"></br>
-                    This is a small web site for studying our upcoming +1 Improvement exam. Physics, chemistry and math are here to help you.
-                    I hope this is so helpful to you.
-                    </div>
-                  </div>         
-      </main>
-    <section1>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm pad">
-            <div style="padding-left:20px;">
-              <a href="physics.html"><button type="button"  class="btn btn2 btn-primary btn-sm "  style="width: 140px;">Physics</button></a>
-            </div>
-          </div>
-          <div class="col-sm pad">
-            <div style="padding-left:20px;">
-              <a href="chemistry.html"><button type="button"  class="btn btn2 btn-primary btn-sm"  style="width:140px; padding-right:80px;"><span style="padding-right: 20px; text-align: center;">Chemistry</span></button></a>
-            </div>
-          </div>
-          <div class="col-sm pad">
-            <div style="padding-left:20px;">
-              <a href="maths.html"><button type="button"  class="btn btn2 btn-primary btn-sm" >Maths</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section1>
-    
-        
-          
-  <div class="container-sm container-md container-lg container-xl col-sm pad2">
-    <div class=" navbar-expand-lg navbar-light container2 col-sm">         
-      
-    <!-- Footer -->
-     <footer class="page-footer font-small blue pt-4 container2 col-sm" style="margin-top: 100px; background-image: url(bg2.jpg);background-repeat: no-repeat;background-size: 100%; background-blend-mode: darken; background-color: rgba(255, 0, 200, 0.822);">
 
-      <!-- Footer Links -->
-      <div class="container-fluid text-center text-md-left">
-    
-        <!-- Grid row -->
-        <div class="row">
-    
-          <!-- Grid column -->
-          <div class="col-md-6 mt-md-0 mt-3">
-    
-            <!-- Content -->
-            <h5 class="text-uppercase">About</h5>
-            <p>Thank you to visting this website</br><strong>Contact Me</strong></br>mob:9447231112</br>Address:Valiamangalam(H)</br>Melampara p.o</br> bharanaganam</br>Pala,Kottayam,Kerala,India</p>
-    
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+              <!-- Links -->
+              <h5 class="text-uppercase">Social Media</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a class="fa fa-facebook" style="padding-top:10px;" href="https://www.facebook.com/jovit.mathew.58">
+                    <i class="fab fa-facebookl-f fa-lg white-text mr-md-5 mr-3 fa-2x">FaceBook </i>
+                  </a>
+                </li>
+                <li>
+                  <a class="fa fa-instagram" style="padding-top:10px;" href="https://www.instagram.com/jovit_mathew/">
+                    <i class="fab fa-instagram-f fa-lg white-text mr-md-5 mr-3 fa-2x">instagram </i>
+                  </a>
+                </li>
+                <li>
+                  <a class="fa fa-google" style="padding-top:10px;" href="#">
+                    <i class="fab fa-google-f fa-lg white-text mr-md-5 mr-3 fa-2x">google </i>
+                  </a>
+                </li>
+                <li>
+                  <a class="fa fa-twitter" style="padding-top:10px;" href="#">
+                    <i class="fab fa-twitter-f fa-lg white-text mr-md-5 mr-3 fa-2x">twitter </i>
+                  </a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+
           </div>
-          <!-- Grid column -->
-    
-          <hr class="clearfix w-100 d-md-none pb-3">
-    
-          <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3">
-    
-            <!-- Links -->
-            <h5 class="text-uppercase">Page</h5>
-    
-            <ul class="list-unstyled">
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#!">Profile</a>
-              </li>
-              <li>
-                <a href="#section1">subjects</a>
-              </li>
-              <li>
-                <a href="#!">Services</a>
-              </li>
-            </ul>
-    
-          </div>
-          <!-- Grid column -->
-    
-          <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3">
-    
-            <!-- Links -->
-            <h5 class="text-uppercase">Social Media</h5>
-    
-            <ul class="list-unstyled">
-              <li>
-                <a class="fa fa-facebook" style="padding-top:10px;" href="https://www.facebook.com/jovit.mathew.58">
-                  <i class="fab fa-facebookl-f fa-lg white-text mr-md-5 mr-3 fa-2x">FaceBook </i>
-                </a>
-              </li>
-              <li>
-                <a class="fa fa-instagram" style="padding-top:10px;"  href="https://www.instagram.com/jovit_mathew/">
-                  <i class="fab fa-instagram-f fa-lg white-text mr-md-5 mr-3 fa-2x">instagram </i>
-                </a>
-              </li>
-              <li>
-                <a class="fa fa-google" style="padding-top:10px;"  href="#">
-                  <i class="fab fa-google-f fa-lg white-text mr-md-5 mr-3 fa-2x">google </i>
-                </a>
-              </li>
-              <li>
-                <a class="fa fa-twitter" style="padding-top:10px;"  href="#">
-                  <i class="fab fa-twitter-f fa-lg white-text mr-md-5 mr-3 fa-2x">twitter </i>
-                </a>
-              </li>
-            </ul>
-    
-          </div>
-          <!-- Grid column -->
-    
+          <!-- Grid row -->
+
         </div>
-        <!-- Grid row -->
-    
-      </div>
-      <!-- Footer Links -->
-    
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="#"> Jovit mathew</a>
-      </div>
-      <!-- Copyright -->
-    
-    </footer>
-    <!-- Footer -->
-    
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="#"> Jovit mathew</a>
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
+
+    </div>
   </div>
- </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
-
-
-
-  
-  

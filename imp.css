@@ -124,9 +124,10 @@ text-align: left;
 display: inline-block;
 position: relative;
 object-position: top;
-display: -ms-grid;
+position: flex;
+background-image: linear-gradient(250deg,  rgba(255, 0, 0, 0.226),  rgba(255, 0, 170, 0.336),  rgba(183, 0, 255, 0.308),  rgba(4, 0, 255, 0.281));
 color:rgba(255, 238, 0, 0.911);
-background-color:  rgba(91, 99, 91, 0.4);
+/*background-color:  rgba(107, 55, 252, 0.4);*/
 border: 3px solid;
 border-color: rgba(0, 255, 64, 0.603) rgba(229, 255, 0, 0.603) rgba(0, 255, 64, 0.603) rgba(229, 255, 0, 0.603);
 border-radius: 30px 50px 30px 50px;
