@@ -13,6 +13,7 @@ function changeTheme2() {
         document.getElementById("table2").style.borderColor = "thistle";
         document.getElementById("table3").style.borderColor = "thistle";
         document.getElementById("table4").style.borderColor = "thistle";
+        document.getElementById("table5").style.borderColor = "thistle";
    } else {
         document.getElementById("body2").style.backgroundColor = "whitesmoke";
         document.getElementById("box2").style.color = "black";
@@ -20,6 +21,7 @@ function changeTheme2() {
         document.getElementById("table2").style.borderColor = "black";
         document.getElementById("table3").style.borderColor = "black";
         document.getElementById("table4").style.borderColor = "black";
+        document.getElementById("table5").style.borderColor = "black";
    }
 }
 
