@@ -4,8 +4,10 @@
   background-image: url("bg1.jpg");
   background-repeat: repeat;
   background-size: 100%;
+  border:1.5px solid rgba(195, 44, 255, 0.726) ;
   background-attachment: fixed;
   background-blend-mode: darken;
+  flex-wrap: warp;
   margin: 0;
   padding: 0;
   /*background: rgb(2,0,36);
@@ -19,6 +21,7 @@
   background-size: 100%;
   background-attachment: fixed;
   background-blend-mode: darken;
+  flex-wrap: warp;
   margin: 0;
   padding: 0;
 }
@@ -29,6 +32,7 @@
   background-size: 100%;
   background-attachment: fixed;
   background-blend-mode: darken;
+  flex-wrap: warp;
   margin: 0;
   padding: 0;
 }
@@ -39,6 +43,7 @@
   background-size: 100%;
   background-attachment: fixed;
   background-blend-mode: darken;
+  flex-wrap: warp;
   margin: 0;
   padding: 0;
 }
@@ -186,7 +191,9 @@ box-shadow: 5px 5px 15px 2px rgba(0, 255, 13, 0.452) , -5px -5px 15px 5px rgba(2
 .nav{
   background-image: linear-gradient(90deg,  rgba(143, 142, 255, 0.555),  rgba(255, 82, 197, 0.363),  rgba(183, 0, 255, 0.514),  rgba(4, 0, 255, 0.281));
   border-radius: 30px 10px 30px 10px;
+  border:1.5px solid rgba(26, 1, 83, 0.726);
   position: relative;
+  color:white;
   display: flex;
 }
 .switch {
