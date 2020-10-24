@@ -1,12 +1,13 @@
 .body{
   /*background-image: linear-gradient(to bottom, #000000 0%, #00005a 100%);
   /*background-image: linear-gradient(150deg,  #000000 0%, #00005a 100%);*/
-  background-image: url("bg1.jpg");
+  background-image:url("bg1.jpg");
   background-repeat: repeat;
   background-size: 100%;
-  border:1.5px solid rgba(195, 44, 255, 0.726) ;
+  border:1.5px solid rgba(21, 19, 22, 0.726) ;
+  border-radius: 5px;
+  box-shadow:-5px -5px 6px #818181;
   background-attachment: fixed;
-  background-blend-mode: darken;
   flex-wrap: warp;
   margin: 0;
   padding: 0;
@@ -889,4 +890,11 @@ td,th{
 .content{
   display: flex;
   flex-wrap: wrap;
+}
+#btn4{
+  cursor:pointer;
+}
+#btn5{
+  cursor:pointer;
+  display:none;
 }
