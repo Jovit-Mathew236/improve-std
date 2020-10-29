@@ -65,3 +65,60 @@ $(document).ready(function () {
           }
      });
 });
+
+function dim1Change() {
+     var str = document.getElementById("1Dim").innerHTML;
+     var str1 = document.getElementById("Dim").innerHTML;
+     if (str.innerHTML = "three"){
+          var res = str.replace("three", "two");
+     }
+     if (str1.innerHTML = "three"){
+          var res1 = str1.replace("three", "two");
+     }
+     document.getElementById("1Dim").innerHTML = res;
+     document.getElementById("Dim").innerHTML = res1;
+     document.getElementById("dim1").style.display = "none";
+     document.getElementById("dim4").style.display = "block";
+     document.getElementById("dim2").style.display = "block";
+     document.getElementById("dim3").style.display = "none";
+}
+function dim2Change() {
+     var str = document.getElementById("1Dim").innerHTML;
+     var str1 = document.getElementById("Dim").innerHTML;
+     var res = str.replace("one", "two");
+     var res1 = str1.replace("one", "two");
+     document.getElementById("dim2").style.display = "none";
+     document.getElementById("dim3").style.display = "block";
+     document.getElementById("dim1").style.display = "none";
+     document.getElementById("dim4").style.display = "block";
+     document.getElementById("1Dim").innerHTML = res;
+     document.getElementById("Dim").innerHTML = res1;
+}
+function dim3Change() {
+     var str = document.getElementById("1Dim").innerHTML;
+     var str1 = document.getElementById("Dim").innerHTML;
+     var res = str.replace("two", "three");
+     var res1 = str1.replace("two", "three");
+     document.getElementById("dim3").style.display = "none";
+     document.getElementById("dim2").style.display = "block";
+     document.getElementById("dim1").style.display = "block";
+     document.getElementById("dim4").style.display = "none";
+     document.getElementById("1Dim").innerHTML = res;
+     document.getElementById("Dim").innerHTML = res1;
+}
+function dim4Change() {
+     var str = document.getElementById("1Dim").innerHTML;
+     var str1 = document.getElementById("Dim").innerHTML;
+     if (str.innerHTML = "two") {
+          var res = str.replace("two", "one");
+     }
+     if (str1.innerHTML = "two") {
+          var res1 = str1.replace("two", "one");
+     }
+     document.getElementById("1Dim").innerHTML = res;
+     document.getElementById("Dim").innerHTML = res1;
+     document.getElementById("dim4").style.display = "none";
+     document.getElementById("dim1").style.display = "block";
+     document.getElementById("dim2").style.display = "block";
+     document.getElementById("dim3").style.display = "none";
+}
